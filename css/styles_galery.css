@@ -36,9 +36,11 @@ body{
     gap: 10px;
 }
 
-.navbar ul li{
-    /*display: inline;*/    
-}
+/*.navbar ul li{
+    display: inline;
+}    
+*/    
+
 
 .navbar ul li a{
     color: white;
@@ -181,4 +183,15 @@ input[type=submit]:hover{
     .navbar ul{
         display: none;
     }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+        left:0;
+    }
+    
 }
